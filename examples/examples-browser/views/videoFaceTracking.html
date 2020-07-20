@@ -173,6 +173,10 @@
       await faceapi.loadFaceLandmarkModel('/')
       changeInputSize(416)
 
+      const dist = faceapi.euclideanDistance([0, 0], [0, 10])
+      console.log(dist) // 10
+      alert(dist);
+
       // start processing frames
       onPlay($('#inputVideo').get(0))
     }
