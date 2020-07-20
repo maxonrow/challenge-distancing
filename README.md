@@ -1,4 +1,4 @@
-# challenge-geolocation
+# geolocation
 
 ## problem statement
 - Due to COVID-19, New Norm applying to our daily lives. Without further burden to Healthcare frontliners and government, how can we make use of Geolocation Analytics to monitor and apply "Social Distancing" efficiently?
