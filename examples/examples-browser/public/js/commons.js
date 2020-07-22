@@ -34,6 +34,7 @@ function renderNavBar(navbarId, exampleUri) {
   const pageContainer = $('.page-container').get(0)
 
   const header = document.createElement('h3')
+  header.classList.add('text-center');
   header.innerHTML = examples.find(ex => ex.uri === exampleUri).name
   pageContainer.insertBefore(header, pageContainer.children[0])
 
