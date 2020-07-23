@@ -207,10 +207,23 @@
     task = withFaceLandmarks ? task.withFaceLandmarks() : task
     const results = await task
     if (!isUndefinedOrNullOrEmpty(results[0]) && !isUndefinedOrNullOrEmpty(results[1])) {
-      let x1 = results[0].box.x;
-      let x2 = results[1].box.x;
-      let y1 = results[0].box.y;
-      let y2 = results[1].box.y;
+      let x1 = '';
+      let x2 = '';
+      let y1 = '';
+      let y2 = '';
+      if (withFaceLandmarks && !isUndefinedOrNullOrEmpty(results[0].detection)) {
+        x1 = results[0].detection.box.x;
+        x2 = results[1].detection.box.x;
+        y1 = results[0].detection.box.y;
+        y2 = results[1].detection.box.y;
+      } else {
+        if (!isUndefinedOrNullOrEmpty(results[0].box)) {
+          x1 = results[0].box.x;
+          x2 = results[1].box.x;
+          y1 = results[0].box.y;
+          y2 = results[1].box.y;
+        }
+      }
       const dist = faceapi.euclideanDistance([x1, y1], [x2, y2]);
       updateMeter((dist / 730).toFixed(2) + 'm');
       if (dist < 730) {
