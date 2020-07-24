@@ -29,5 +29,3 @@ Browse to <http://localhost:3000/>.
 const dist = faceapi.euclideanDistance([0, 0], [0, 10])
 console.log(dist) // 10
 ```
-
-Special thanks to <https://github.com/justadudewhohacks/face-api.js>
