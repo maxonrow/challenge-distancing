@@ -1,4 +1,6 @@
-# Geolocation
+# ![https://maxonrow.com](https://maxonrow.com/images/maxonrow_gold.png)
+
+## Geolocation
 
 ## Problem Statement
 
@@ -12,20 +14,25 @@
 
 - An analytical model or solution that able to monitor & alert of any lockdown violators.
 
-## Running the Browser Examples
+## Start Up Geolocation Project
 
-``` bash
-cd challenge-geolocation/examples/examples-browser
-npm i
-npm start
-```
+### Step 1 - Clone project
 
-Browse to <http://localhost:3000/>.
+- Clone project `$ git clone https://github.com/maxonrow/challenge-geolocation.git`
 
-### Euclidean Distance
+### Step 3 - Navigate to backend
 
-``` javascript
-// meant to be used for computing the euclidean distance between two face descriptors
-const dist = faceapi.euclideanDistance([0, 0], [0, 10])
-console.log(dist) // 10
-```
+- Go to directory `cd challenge-geolocation/examples/examples-browser`
+
+### Step 4 - Build & run backend
+
+- run `npm i` & subsequently with `npm run start` & you should see output serving at `http://localhost:3000`
+
+### Step 5 - Checkout article
+
+- checkout our [cookbook](https://medium.com/) on how to design & implement NFT.
+- please! remember to claps, follow & share. we will mint you something! You will find out soon!
+
+### Step 8 - Expected output
+
+- ![screenshot](geolocation.png)
