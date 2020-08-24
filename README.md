@@ -1,12 +1,12 @@
 # ![https://maxonrow.com](https://maxonrow.com/images/maxonrow_gold.png)
 
-## Geolocation
+## Physical Distancing
 
 ## Problem Statement
 
-- Due to COVID-19, New Norm applying to our daily lives. Without further burden to Healthcare frontliners and government, how can we make use of Geolocation Analytics to monitor and apply "Social Distancing" efficiently?
+- Due to COVID-19, New Norm applying to our daily lives. Without further burden to Healthcare frontliners and government, how can we make use of Analytics to monitor and apply "Physical Distancing" efficiently?
 
-- Singapore and Australia are among the many governments that have already implemented contact tracing apps to stop the widespread of COVID-19. However, ethical dilemmas surround the nature of these apps that have resulted in people not using the app. How can we create a 'contact tracing' or 'social distancing' solution using blockchain technology that is quickly adopted by over 60% of a country's population in the event of a pandemic? Or better yet, that can be utilized worldwide?
+- Governments all over the world are searching for solutions to contain the spread of COVID-19. Physical distancing measures such as stay-at-home orders and travel restrictions have been proven to slow the spread in many cases. How can we make use of analytics to create smarter solutions to help governments implement social or physical distancing measures?
 
 ## Example Solution
 
@@ -14,15 +14,15 @@
 
 - An analytical model or solution that able to monitor & alert of any lockdown violators.
 
-## Start Up Geolocation Project
+## Start Up Physical Distancing Project
 
 ### Step 1 - Clone project
 
-- Clone project `$ git clone https://github.com/maxonrow/challenge-geolocation.git`
+- Clone project `$ git clone https://github.com/maxonrow/challenge-distancing.git`
 
 ### Step 3 - Navigate to backend
 
-- Go to directory `cd challenge-geolocation/examples/examples-browser`
+- Go to directory `cd challenge-distancing/examples/examples-browser`
 
 ### Step 4 - Build & run backend
 
