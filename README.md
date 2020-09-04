@@ -32,11 +32,11 @@ As much as we want the COVID-19 pandemic to be over as quickly as possible, the 
 
 - run `npm i` & subsequently with `npm run start` & you should see output serving at `http://localhost:3000`
 
-### Step 5 - Checkout article
-
-- checkout our [cookbook](https://medium.com/maxonrow/maxathon-challenge-1-physical-distancing-ea03769bbd43) on how to design & implement NFT.
-- please! remember to claps, follow & share. we will mint you something! You will find out soon!
-
-### Step 8 - Expected output
+### Step 5 - Expected output
 
 - ![screenshot](geolocation.png)
+
+### Step 6 - Checkout article
+
+- checkout our [cookbook](https://medium.com/maxonrow/maxathon-challenge-1-physical-distancing-ea03769bbd43).
+- please! remember to claps, follow & share. we will mint you something! You will find out soon!
