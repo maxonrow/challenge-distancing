@@ -34,7 +34,7 @@ As much as we want the COVID-19 pandemic to be over as quickly as possible, the 
 
 ### Step 5 - Checkout article
 
-- checkout our [cookbook](https://medium.com/) on how to design & implement NFT.
+- checkout our [cookbook](https://medium.com/maxonrow/maxathon-challenge-1-physical-distancing-ea03769bbd43) on how to design & implement NFT.
 - please! remember to claps, follow & share. we will mint you something! You will find out soon!
 
 ### Step 8 - Expected output
